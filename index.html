@@ -1,89 +1,206 @@
 <!DOCTYPE html>
-
-<html lang="en">
-  <head>
+<html>
+<head>
+    <meta charset="utf-8">
     <title>Marnix Looijmans</title>
-    <style>
-      html,body {
-        background-color: #E5D6BA;
-      }
-      #name {
-        margin-bottom: 0;
-      }
-      .container {
-        width: 100%;
-        max-width: 600px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1 id="name">Marnix Looijmans</h1>
+    <meta name="description" content="Marnix Looijmans Personal Website">
 
-      <p>
-        <i>
-          Mathematical Physics at the University of Edinburgh.<br>
-          Exchange student at UC Berkeley.
-        </i><br>
-        M.J.Looijmans [at] sms.ed.ac.uk<br>
-        MJ.Looijmans [at] berkeley.edu
-      </p>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-      <p>
-        <img src="portrait.jpg" height="200">
-      </p>
+    <link rel="stylesheet" href="static/css/base.css">
+    <link rel="stylesheet" href="static/css/skeleton.css">
+    <link rel="stylesheet" href="static/css/layout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-      <p>
-        <b>Profile</b><br>
-        I have a keen interest in cosmology, neutrino physics, quantum computing, and artificial intelligence.
-        My goal is to become a professional researcher in these fields.
-        As a pastime, I am also interested in space exploration.<br>
-        <a href="https://github.com/marnixlooijmans">Click here for my GitHub</a>
-      </p>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-      <p>
-        <b>Research Experience</b><br>
-        Spring 2023 (ongoing), <i>Nanohertz GW map construction from galaxy catalogs</i>, UC Berkeley<br><br>
+    <!--<link rel="shortcut icon" href="static/img/favicon.ico">-->
+    <!-- <link rel="apple-touch-icon" href="static/img/me-icon-57.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
+</head>
+<body>
+<div class="container">
+    <header class="four columns">
+        <img src="static/img/profile.jpg" class="me">
+        <h2>Marnix Looijmans</h2>
+        <!--<p>
+            <a href="tel:+440000000000">+44 0000 000000</a>
+        </p>-->
+        <address>
+            Edinburgh<br/>
+            United Kingdom
+        </address>
+        <p>
+          Citizen of the Netherlands<br>
+          Unrestricted UK work permit
+        </p>
+        <p>
+            <a href="https://marnixlooijmans.github.io">marnixlooijmans.github.io</a><br/>
+        </p>
+        <p>
+            <a href="mailto:M.J.Looijmans@sms.ed.ac.uk">M.J.Looijmans@sms.ed.ac.uk</a><br/>
+            <a href="https://github.com/marnixlooijmans"><i class="fa fa-github"></i> Github</a> /
+            <a href="https://www.linkedin.com/in/marnix-looijmans/"><i class="fa fa-linkedin"></i> LinkedIn</a>
+        </p>
+    </header>
+    <div class="twelve columns clearfix">
 
-        Summer 2022, <i>Shrinkage Estimation of Covariance Matrices in Cosmological Analysis</i>, The University of Edinburgh
-        [<a href="Shrinkage_Estimation_Project_Report.pdf">report</a>]
-        [<a href="Shrinkage_Estimation_Poster.pdf">poster</a>]
-      </p>
+      <section class="twelve columns">
+          <h1>Profile</h1>
+          <article>
+            <p>
+              Thank you for your interest in me.
+              I am an aspiring science researcher interested in cosmology, statistics, and advanced computing.
+              Currently, <em>I am applying to PhD programs</em> in these fields.
+            </p>
+          </article>
+      </section>
 
-      <p>
-        <b>Education</b><br>
-        2022 - 2023, The University of California at Berkeley, Physics, EAP Exchange Program<br>
-        Interim GPA: 4.0/4.0<br><br>
-        2019 - 2024 (expected), The University of Edinburgh, Mathematical Physics, Master of Physics (Hons)<br>
-        Grade: First Class / A average (predicted)
-      </p>
+      <section class="twelve columns">
+    <h1>Research Experience</h1>
+    <article>
+        <header>
+            <h1>Research Assistent</h1>
+            <span><address>The University of Edinburgh</address><time>Summer 2023</time></span>
+        </header>
+        <p>
+          <em>Comparison of Covariance and Precision Matrix Estimators in Cosmology.</em><br>
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>Independent Studies Class</h1>
+            <span><address>The Univesity of California, Berkeley</address><time>Spring 2023</time></span>
+        </header>
+        <p>
+          <em>Comparison of various DESI legacy catalogs.</em><br>
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>Research Assistent</h1>
+            <span><address>The University of Edinburgh</address><time>Summer 2022</time></span>
+        </header>
+        <p>
+          <em>Shrinkage Estimation of Covariance Matrices in Cosmological Analysis.</em>
+          [<a href="static/pdf/Shrinkage_Estimation_Project_Report.pdf">report</a>]
+          [<a href="static/pdf/Shrinkage_Estimation_Poster.pdf">poster</a>]
+        </p>
+    </article>
+</section>
 
-      <p>
-        <b>Other Experience</b><br>
-        2020 - 2022, Resident Assistant, Residence Life, The University of Edinburgh<br>
-        Demonstrated strong time management skills by combining a demanding on-campus job with full-time studies.
-      </p>
 
-      <p>
-        <b>Professional Memberships</b><br>
-        Institute of Physics, Associate Member<br>
-        Institute of Mathematics and its Applications, Student Member<br>
-        Nederlandse Wereldwijde Studenten (Dutch Worldwide Students), Full Member
-      </p>
+<section class="twelve columns">
+    <h1>Education</h1>
+    <article>
+        <header>
+            <h1>MPhys (Hons) Mathematical Physics</h1>
+            <span><address>The University of Edinburgh</address><time>2019 to 2024</time></span>
+        </header>
+        <p>
+          Predicted grade: First Class Honours
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>EAP Exchange Program in Physics</h1>
+            <span><address>The University of California, Berkeley</address><time>2022 to 2023</time></span>
+        </header>
+        <p>
+            Overall GPA: 4.0/4.0
+        </p>
+    </article>
+</section>
 
-      <p>
-        <b>Skills</b><br>
-        Technical: Python, Bayesian Statistics, LaTeX, PHP, MySQL, JavaScript, HTML<br>
-        Transferable: report writing, project management, analytical reasoning, teamwork
-      </p>
+<section class="twelve columns">
+    <h1>Employment (Non-Research)</h1>
+    <article>
+        <header>
+            <h1>Resident Assistent</h1>
+            <span><address>Residence Life, The University of Edinburgh</address><time>2020 to 2022</time></span>
+        </header>
+        <p>
+          Demonstrated strong team-working and time management skills.
+        </p>
+    </article>
+</section>
 
-      <p>
-        <b>Miscellaneous</b><br>
-        Citizenship: Netherlands<br>
-        Nationality: European<br>
-        Languages: Dutch (native), English (fluent), French (conversational), German (basics)<br>
-        Hobbies: Traveling and talking to the locals, going to language cafes, and drinking coffee with friends.<br>
-      </p>
-    </div>
-  </body>
+<section class="twelve columns">
+    <h1>Skillset</h1>
+    <article>
+        <header>
+            <h1>Technical</h1>
+        </header>
+        <p>
+          Python, SciPy, R, PHP, LaTex, Bayesian Statistics, MySQL, HTML/CSS, JavaScript
+        </p>
+      </article>
+      <article>
+        <header>
+          <h1>Transferable</h1>
+        </header>
+        <p>
+          Team work, analytical reasoning, problem solving, project management, report writing
+        </p>
+      </article>
+</section>
+
+<!-- FROM TEMPLATE
+<section class="twelve columns">
+    <h1>Programming Skills</h1>
+    <article>
+        <header>
+            <h1>Software engineering & web development</h1>
+        </header>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+            &nbsp;&nbsp;<em>C/C++ & Objective-C</em>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Java</em>, <em>Python</em>, <em>PHP</em> &amp; <em>Git</em>
+        </p>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>HTML/CSS3</em> &amp; <em>Javascript</em>
+        </p>
+    </article>
+</section>
+
+<section class="twelve columns">
+    <h1>Initiatives</h1>
+    <article>
+        <header>
+            <h1>Graduate Summer Student</h1>
+            <span><address>University of Glasgow, UK</address><time>2013</time></span>
+        </header>
+        <p>
+            Courses: Nec et duis iriure temporibus, ullum adolescens eam ea.
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>Student Volunteer</h1>
+            <span><address>British RedCross, Glasgow, UK</address><time>2013</time></span>
+        </header>
+        <p>
+            Fundraiser: Lorem adipiscing ei eam, eros conceptam maiestatis ne sea.
+        </p>
+    </article>
+</section>
+-->
+
+<section class="twelve columns">
+    <h1>Hobbies</h1>
+    <article>
+        <p>Coffee</p>
+    </article>
+</section>
+
+<footer class="twelve columns">
+</footer>
+</div>
+</body>
 </html>
